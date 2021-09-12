@@ -1,6 +1,121 @@
-.carre {
+.carre1 {
 background-color: #F2F2F2;
-width: 1200px;
+width: 1140px;
 height: 800px;
 border-radius: 2.7%;
+display: inline-block;
+margin: 1% 1% 1% 5%;
+
+
 }
+
+.carre2 {
+    background-color: #F2F2F2;
+    width: 538px;
+    height: 800px;
+    border-radius: 2.7%;
+    float: right;
+    margin: 1% 5% 1% 0%;
+
+    }
+
+
+.logo {
+   margin-left: 5%; 
+} 
+
+.logoReservia {
+
+    width: 100x;
+    height: 50px;
+    margin-bottom: 3%;
+}
+
+.Bold  {
+    font-size: 30px;
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 7px;
+    
+    
+}
+.normal {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    
+}
+
+
+.text {
+
+    border: none;
+    width: 303px;
+    height: 57px;
+    
+}
+
+.rechercher2 {
+
+background-color: #F2F2F2;
+width: 307.2px;
+height: 61px;
+;
+border-radius: 15px 0px 0px 15px;
+margin-left: 5%;
+padding-left: 3.5%;
+padding-top: 0.1300%;
+padding-bottom: 0.0080%;
+margin-right: 0%;
+display: inline-block;
+
+
+}
+
+.rechercher3 {
+
+    background-color: #0065FC;
+width: 200px;
+height: 62px;
+;
+border-radius: 0px 15px 15px 0px;
+float: right;
+margin-right: 64.6%;
+margin-top: 1.5px;
+}
+
+
+
+.Bold1  {
+    font-size: 23px;
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+    
+}
+
+
+.Bold2  {
+    font-size: 30px;
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+    
+}
+
+
+.rectangle {
+    background-color: #F2F2F2;
+    width: 1813px;
+    height: 300px;
+    
+    
+    margin: 3% 1.5% 1% 2%;
+
+    }
