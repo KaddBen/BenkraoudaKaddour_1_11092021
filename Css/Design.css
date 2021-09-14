@@ -1,21 +1,21 @@
 .carre1 {
 background-color: #F2F2F2;
-width: 1140px;
+width: 1125px;
 height: 800px;
 border-radius: 2.7%;
 display: inline-block;
-margin: 10% 1% 1% 5%;
+margin: 2% 1% 1% 5%;
 
 
 }
 
 .carre2 {
     background-color: #F2F2F2;
-    width: 538px;
+    width: 523px;
     height: 800px;
     border-radius: 2.7%;
     float: right;
-    margin: 10% 5% 1% 0%;
+    margin: 2% 5% 1% 0%;
 
     }
 
@@ -41,12 +41,30 @@ margin: 10% 1% 1% 5%;
     
 }
 .normal {
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+     font-family: 'Raleway', sans-serif;
     margin-left: 5%;
     margin-bottom: 1%;
     
 }
+
+
+
+
+
+.normal1 {
+
+
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 70%;
+    float: right;
+    
+    
+}
+
+
+
 
 
 .text {
@@ -109,6 +127,8 @@ height: 60px;
 
 
 .Bold2  {
+
+
     font-size: 30px;
     margin-left: 5%;
     font-family: 'Raleway', sans-serif;
@@ -120,13 +140,17 @@ height: 60px;
 
 
 .rectangle {
-
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    
     background-color: #F2F2F2;
-    width: 1813px;
-    height: 300px;
+    width: 1740px;
+    height: 200px;
+    display: inline-block;
     
     
-    margin: 3% 1.5% 1% 2%;
+    margin: 3% 0% 1% 2%;
 
     }
 
@@ -140,7 +164,7 @@ border-radius: 50%;
 
     margin-left: 10.4%;
    
-display: inline-block;
+
 
 z-index: 2;
 
@@ -275,5 +299,137 @@ z-index: 2;
 
     
 }
+
+.textRectangle1 {
+  
+    
+    
+    
+  
+    float: left;
+    
+   
+    
+
+    
+}
+
+.textRectangle2 {
+  
+    
+    
+   width: 250px; 
+  margin-left: 18%;
+    display: inline-block;
+   
+    
+    
+
+    
+}
+
+.textRectangle3 {
+    
+    
+  
+  margin-right: 26%;
+    float:right;
+      
+}
+
+
+.textBold  {
+    font-size: 25px;
+  
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+   
+    
+    
+}
+
+.textBold1  {
+    font-size: 22px;
+    
+   
+        font-family: 'Raleway', sans-serif;
+      
+        
+    
+    
+    
+    
+    
+}
+
+.hébergement  {
+    font-size: 20px;
+    
+   
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        float: left;
+    margin-left: 65%;
+color: #0065FC;
+    
+    
+    
+    
+}
+
+.activités  {
+    font-size: 20px;
+    margin-left: 5%;
+    font-weight: 500;
+   display: inline-block;
+        font-family: 'Raleway', sans-serif;
+      
+        
+    
+    
+    
+    
+    
+}
+
+.inscription  {
+    font-size: 20px;
+
+    margin-right: 7%;
+    font-weight: 700;
+    color: #0065FC;
+   float: right;
+        font-family: 'Raleway', sans-serif;
+      
+        
+    
+    
+    
+    
+    
+}
+
+.miniCercle {
+    
+    
+    background-color: white;
+
+width: 20px;
+height: 20px;
+border-radius: 50%;
+display: inline-block;
+    margin-left: 5%;
+    
+   
+border-style: solid;
+    border-color: #F2F2F2;
+
+
+
+
+}
+
+
+
 
 
