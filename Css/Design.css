@@ -439,7 +439,7 @@ border-style: solid;
 
     padding-bottom: 0.5%;
     
-    padding-top: 28% ;
+    padding-top: 28.3% ;
     box-shadow: 0px 0px 7px 7px #F2F2F2 ;
     margin: 2% 0% 1% 5%;
     
@@ -514,11 +514,180 @@ border-style: solid;
                         
                   
                         }
-                    
-                
-                    
+
+
+
+                        .Port {
+                            position: absolute;
+                            background-color: white;
+                            background-image: url(/Img/Activités/Port.jpg);
+                            background-repeat: no-repeat;
+                            background-position-x: center;
+                            background-position-y: center;
+                            background-size: 100%;
+                            object-fit: cover;
+                           
+                           
+                           
+                                border-radius: 28px 28px 0% 0%;
+                                width:  400px;
+                                height: 195px;
+            
+                            
+                            margin: 19.6% 0% 1% 28%;
+                      
+                            }
+            
+                            .Port0 {
+                                
+                                    position: absolute;
+                                    background-color: white;
+                                    width: 400px;
+                                
+                                    height: 50px;
+                                    border-radius: 28px;
+                                
+                                    padding-top: 10.5%;
+                                    padding-bottom: 0.5%;
+                                    box-shadow: 0px 0px 7px 3px #F2F2F2 ;
+                                    
+                                   
+                                    margin: 19.6% 0% 1% 28%;
+                                    
+                              
+                                    }
+
+
+                                    
+                                    .Calanques {
+                                        position: absolute;
+                                        background-color: white;
+                                        width: 400px;
+                                    
+                                        height: 45px;
+                                        border-radius: 28px;
+                                    
+                                        padding-bottom: 1%;
+                                        
+                                        padding-top: 28% ;
+                                        box-shadow: 0px 0px 7px 7px #F2F2F2 ;
+                                        margin: 2% 0% 1% 51%;
+                                        
+                                    
+                                        }
+                                        
+                                    
+                                    
+                                            .Calanques0 {
+                                                
+                                                position: absolute;
+                                                background-image: url(/Img/Activités/Calanques.jpg);
+                                                background-repeat: no-repeat;
+                                                background-position-x: -291px;
+                                                background-position-y: top;
+                                                background-size: 238%;
+                                           z-index: 1;
+                                                border-radius: 28px 28px 0% 0%;
+                                                width:  400px;
+                                                height: 550px;
+                                                margin: 1% 0% 1% 51%;
+                                            
+                                            
+                                                }
+
+                                                .Bold3  {
+
+                                                    position: absolute;
+                                                    font-size: 23px;
+                                                    margin-left: 5%;
+                                                  
+                                                    font-family: 'Raleway', sans-serif;
+                                                    font-weight: bold;
+                                                    margin-top: 15px;
+                                                    float: left;
+                                                     background-color: white;
+                                                width: 350px;
+                                                height: 30px;
+                                                }
 
                
 
 
-                
+                                                .NotreDame {
+                                                    position: absolute;
+                                                    background-color: white;
+                                                    background-image: url(/Img/Activités/NotreDame.jpg);
+                                                    background-repeat: no-repeat;
+                                                    background-position-x: center;
+                                                    background-position-y: top;
+                                                    background-size: 100%;
+                                                    object-fit: cover;
+                                                   
+                                                   
+                                                   
+                                                        border-radius: 28px 28px 0% 0%;
+                                                        width:  400px;
+                                                        height: 200px;
+                                    
+                                                    
+                                                    margin: 1% 5% 1% 75%;
+                                              
+                                                    }
+                                    
+                                                    .NotreDame0 {
+                                                        
+                                                            position: absolute;
+                                                            background-color: white;
+                                                            width: 400px;
+                                                        
+                                                            height: 50px;
+                                                            border-radius: 28px;
+                                                        
+                                                            padding-top: 10.8%;
+                                                            padding-bottom: 0.5%;
+                                                            box-shadow: 0px 0px 7px 3px #F2F2F2 ;
+                                                            
+                                                        
+                                                            margin: 1% 5% 1% 75%;
+                                                            
+                                                      
+                                                            }
+                                                            .Parc {
+                                                                position: absolute;
+                                                                background-color: white;
+                                                                background-image: url(/Img/Activités/Frioul.jpg);
+                                                                background-repeat: no-repeat;
+                                                                background-position-x: center;
+                                                                background-position-y: -130px;
+                                                                background-size: 100%;
+                                                                object-fit: cover;
+                                                               
+                                                               
+                                                               
+                                                                    border-radius: 28px 28px 0% 0%;
+                                                                    width:  400px;
+                                                                    height: 232px;
+                                                
+                                                                
+                                                                margin: 18.5% 5% 1% 75%;
+                                                          
+                                                                }
+                                                
+                                                                .Parc0 {
+                                                                    
+                                                                        position: absolute;
+                                                                        background-color: white;
+                                                                        width: 400px;
+                                                                    
+                                                                        height: 50px;
+                                                                        border-radius: 28px;
+                                                                    
+                                                                        padding-top: 10.5%;
+                                                                        padding-bottom: 0.5%;
+                                                                        box-shadow: 0px 0px 7px 3px #F2F2F2 ;
+                                                                        
+                                                                    
+                                                                        margin: 18.5% 5% 1% 75%;
+                                                                        
+                                                                  
+                                                                        }
