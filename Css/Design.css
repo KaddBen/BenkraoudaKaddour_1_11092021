@@ -58,8 +58,12 @@
 
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
-    margin-right: 70%;
+    margin-right: 60.8%;
     float: right;
+    margin-left: 7%;
+    margin-top: 0.2%;
+    
+
 
 
 }
@@ -108,20 +112,20 @@
 
 
 
-.Bold1 {
+.Bold6 {
 
-    position: absolute;
-    font-size: 23px;
+   
+    font-size: 26px;
     margin-left: 5%;
 
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 15px;
     float: left;
     background-color: white;
-    width: 60px;
-    height: 60px;
-
+   
+width: 60px;
+height: 60px;
 
 
 }
@@ -414,17 +418,20 @@
 
 .miniCercle {
 
-
+    position: absolute;
     background-color: white;
 
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: inline-block;
     margin-left: 5%;
+    
+    
 
 
     border-style: solid;
+    border-width: 2px;
     border-color: #F2F2F2;
 
 
@@ -740,7 +747,7 @@
 
 .CarreBold1 {
     position: absolute;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
     width: 250px;
     height: 10px;
@@ -752,7 +759,7 @@
 
 .CarreText1 {
     position: absolute;
-    font-size: 19px;
+    font-size: 18px;
 
     width: 150px;
     height: 10px;
@@ -773,12 +780,7 @@
     margin-left: 47%;
 }
 
-.fas.fa-star {
-    position: absolute;
-    margin-top: 69.5%;
-    margin-left: 4%;
 
-}
 
 .star {
 
@@ -879,7 +881,7 @@
 
 .CarreText2 {
     position: absolute;
-    font-size: 19px;
+    font-size: 18px;
 
     width: 180px;
     height: 10px;
@@ -1071,3 +1073,309 @@
     margin-left: 54.1%;
 
 }
+
+
+.Bold5 {
+
+
+    font-size: 30px;
+    margin: 2.5% 0% 2.5% 2.5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+
+    position: absolute;
+
+
+}
+
+.textBold2 {
+
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 37.5% 0% 2.5% 2.5%;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+
+
+.Soleil {
+    position: absolute;
+    background-color: white;
+    background-image: url(/Img/Hebergements/soleil.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 170%;
+    object-fit: contain;
+
+
+
+    border-radius: 28px 0px 0px 28px;
+    width: 170px;
+    height: 173px
+}
+
+.Soleil0 {
+
+    position: absolute;
+    background-color: white;
+    width: 415px;
+
+    height: 170px;
+    border-radius: 28px;
+
+    padding: 0.3% 0.3% 0.3% 0.3%;
+    padding-bottom: 0.5%;
+    box-shadow: 0px 0px 7px 3px #F2F2F2;
+
+
+    margin: 6% 0% 1% 2.5%;
+
+
+}
+
+
+.CarreText3 {
+    position: absolute;
+    font-size: 18px;
+
+    width: 180px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 16%;
+    margin-left: 46%;
+
+}
+
+.CarreBold4 {
+
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 82.5%;
+    margin-top: 16%
+}
+
+.star0 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 33%;
+    color: #0065FC;
+
+
+}
+
+.star01 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 50.5%;
+    margin-top: 33%;
+    color: #0065FC;
+
+}
+
+.star02 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 33%;
+    color: #0065FC;
+
+}
+
+.star03 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 59.5%;
+    margin-top: 33%;
+    color: #0065FC;
+
+}
+
+.star05 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 64%;
+    margin-top: 33%;
+    color: #0065FC;
+
+
+}
+
+.CarreBold01 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+   margin-top: 3%;
+    margin-left: 46%;
+}
+
+
+.star04 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 64%;
+    color: #e9e9e9;
+
+
+}
+
+.Eau {
+    position: absolute;
+    background-color: white;
+    background-image: url(/Img/Hebergements/eau.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 152%;
+    object-fit: contain;
+
+
+
+    border-radius: 28px 0px 0px 28px;
+    width: 170px;
+    height: 173px
+}
+
+.Eau0 {
+
+    position: absolute;
+    background-color: white;
+    width: 415px;
+
+    height: 170px;
+    border-radius: 28px;
+
+    padding: 0.3% 0.3% 0.3% 0.3%;
+    padding-bottom: 0.5%;
+    box-shadow: 0px 0px 7px 3px #F2F2F2;
+
+
+    margin: 18% 0% 1% 2.5%;
+
+
+}
+
+
+.Bleu {
+    position: absolute;
+    background-color: white;
+    background-image: url(/Img/Hebergements/bleu.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 108%;
+    object-fit: contain;
+
+
+
+    border-radius: 28px 0px 0px 28px;
+    width: 170px;
+    height: 173px
+}
+
+.Bleu0 {
+
+    position: absolute;
+    background-color: white;
+    width: 415px;
+
+    height: 170px;
+    border-radius: 28px;
+
+    padding: 0.3% 0.3% 0.3% 0.3%;
+    padding-bottom: 0.5%;
+    box-shadow: 0px 0px 7px 3px #F2F2F2;
+
+
+    margin: 30% 0% 1% 2.5%;
+
+
+}
+
+.CarreBold5 {
+
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 80.8%;
+    margin-top: 16%
+}
+
+.CarreBold6 {
+
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 81.6%;
+    margin-top: 16%
+}
+
+
+
+.CarreBold7 {
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 59.5%;
+    margin-left: 51.5%;
+}
+
+.progress {
+position: absolute;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.fas.fa-chart-line {
+position: absolute;
+margin-left: 23.5%;
+   margin-top: 2.5%;
+   font-size: 30px;
+}
+
+
+
+
