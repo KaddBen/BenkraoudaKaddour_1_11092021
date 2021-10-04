@@ -1,3 +1,7 @@
+
+
+
+
 .carre1 {
     background-color: #F2F2F2;
     width: 1125px;
@@ -21,14 +25,22 @@
 
 
 .logo {
+    display: block;
+  position: relative;
+    margin-top: 4%;
     margin-left: 5%;
+    background-color: green;
+    width:150px ;
+    
 }
 
 .logoReservia {
-
-    width: 100x;
-    height: 50px;
+margin-top: 3%;
+    width: 150Px;
+    height: 60px;
     margin-bottom: 3%;
+    
+    margin-left: 5%;
 }
 
 .Bold {
@@ -37,12 +49,13 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-bottom: 7px;
+ 
 
 
 }
 
 .normal {
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Raleway', sans-serif;
     margin-left: 5%;
     margin-bottom: 1%;
@@ -56,12 +69,12 @@
 .normal1 {
 
 
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Raleway', sans-serif;
-    margin-right: 60.8%;
+    margin-right: 63.8%;
     float: right;
     margin-left: 7%;
-    margin-top: 0.2%;
+    margin-top: 0.0%;
     
 
 
@@ -74,9 +87,12 @@
 
 .text {
 
-    border: none;
+   border: none;
     width: 303px;
     height: 57px;
+    font-family: 'Raleway', sans-serif;
+font-size: 22px;
+font-weight: bold;
 
 }
 
@@ -86,7 +102,7 @@
     width: 307.2px;
     height: 61px;
     ;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 21px 0px 0px 21px;
     margin-left: 5%;
     margin-bottom: 3%;
     padding-left: 3.5%;
@@ -98,19 +114,41 @@
 
 }
 
+.location{
+
+    position: absolute;
+    margin-top: 1%;
+margin-left: 6.25%;
+font-size: 23px;
+
+}
+
 .rechercher3 {
 
     background-color: #0065FC;
-    width: 200px;
+    width: 180px;
     height: 62px;
     ;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 21px 21px 0px;
     float: right;
-    margin-right: 64.6%;
+    margin-right: 65.65%;
     margin-top: 1.5px;
+    
+    
+
 }
 
 
+.rechercher4 {
+position: absolute;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 0.9%;
+margin-left: 
+1.3%;
+}
 
 .Bold6 {
 
@@ -147,34 +185,65 @@ height: 60px;
 
 
 .rectangle {
-    padding-top: 3%;
-    padding-left: 4%;
-    padding-bottom: 3%;
 
     background-color: #F2F2F2;
-    width: 1740px;
-    height: 200px;
-    display: inline-block;
+    width: 1810px;
+    height: 280px;
+  
 
 
-    margin: 3% 0% 1% 2%;
+    margin: 3% 5% 1% 2%;
 
 }
 
 .cercle {
+
 
     position: absolute;
     background-color: #DEEBFF;
     width: 69px;
     height: 69px;
     border-radius: 50%;
+ 
+    margin-top:-1.25%;
+    margin-left: -1.25%;
 
-    margin-left: 10.4%;
+
+}
+
+.cercle:hover {
+
+    
+    background-color: #0065FC;
+    
+    
+
+}
+
+.bill {
+   
+    position: absolute;
+    text-align: center;
+    
+    padding-top: 35%;
+    width: 69px;
+    height: 45px;
+    border-radius: 50%;
+z-index: 2;
+    margin-left: 0%;
 
 
 
-    z-index: 2;
 
+font-size: 23px;
+color: #0065FC;
+
+
+}
+
+.bill:hover {
+
+color: white;
 
 }
 
@@ -196,6 +265,45 @@ height: 60px;
 
 }
 
+.rectangle1:hover .economique
+
+{
+
+    color: #DEEBFF;
+   
+}
+
+
+.rectangle1:hover .cercle
+
+{
+
+    background-color: #0065FC;
+   
+}
+
+
+.rectangle1:hover .bill
+
+{
+
+    color: white;
+   
+}
+
+
+.economique {
+
+position: absolute;
+font-family: 'Raleway', sans-serif;
+font-size: 22px;
+font-weight: bold;
+margin: 6.5% 16% 0% 30%;
+
+}
+
+
+
 
 
 
@@ -209,12 +317,40 @@ height: 60px;
 
     margin-left: 26.2%;
 
-
+    margin-top:-1.5%;
+    margin-left: -2%;
 
     z-index: 2;
 
 
 }
+
+
+
+.familial {
+
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8.5% 16% 0% 38%;
+    
+    }
+  
+
+    .child {
+
+position: absolute;
+
+margin-left: 35%;
+margin-top: 32%;
+font-size: 27px;
+
+
+color: #0065FC;
+    }
+
+
 
 .rectangle2 {
 
@@ -235,6 +371,42 @@ height: 60px;
 }
 
 
+.rectangle2:hover .cercle1 {
+
+    background-color: #0065FC;
+
+
+}
+
+.rectangle2:hover .child {
+
+    
+color: white;
+
+}
+
+.rectangle2:hover .familial {
+
+    color: #DEEBFF;
+    
+}
+
+
+
+
+
+
+.romantique {
+
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8.5% 16% 0% 34%;
+    
+    }
+    
+
 
 .cercle2 {
 
@@ -246,24 +418,38 @@ height: 60px;
 
     margin-left: 38.7%;
 
-
+    margin-top:-1.5%;
+    margin-left: -2%;
 
     z-index: 2;
 
 
 }
 
+
+.coeur {
+
+    margin-left: 30%;
+    margin-top: 36%;
+    font-size: 23px;
+    color: #0065FC;
+    
+    
+    }
+
+
+
 .rectangle3 {
 
     position: absolute;
     background-color: white;
-    width: 260px;
+    width: 220px;
     height: 63px;
     border-radius: 33px 33px 33px 33px;
     border-style: solid;
     border-color: #DADADA;
     margin-left: 39.5%;
-
+   
 
     float: right;
 
@@ -271,6 +457,39 @@ height: 60px;
 
 }
 
+
+
+.rectangle3:hover .cercle2 {
+
+    background-color: #0065FC;
+    
+}
+
+
+
+.rectangle3:hover .coeur {
+
+    color:white;
+    
+}
+
+.rectangle3:hover .romantique {
+
+
+    color: #DEEBFF;
+
+    
+}
+
+.animaux {
+
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 6.5% 16% 0% 25%;
+    width: 200px;
+    }
 
 .cercle3 {
 
@@ -280,14 +499,29 @@ height: 60px;
     height: 69px;
     border-radius: 50%;
 
-    margin-left: 54.8%;
+    margin-top:-1.5%;
+    margin-left: -2%;
 
-
+    
 
     z-index: 2;
 
 
 }
+
+
+.chien {
+
+    margin-left: 30%;
+    margin-top: 36%;
+    font-size: 23px;
+    color: #0065FC;
+    
+    
+    }
+
+
+
 
 .rectangle4 {
 
@@ -298,7 +532,7 @@ height: 60px;
     border-radius: 33px 33px 33px 33px;
     border-style: solid;
     border-color: #DADADA;
-    margin-left: 55%;
+    margin-left: 53%;
 
 
     float: right;
@@ -307,12 +541,35 @@ height: 60px;
 
 }
 
+.rectangle4:hover .chien {
+
+color: white;
+
+}
+
+.rectangle4:hover .cercle3 {
+
+background-color: #0065FC;
+
+}
+
+.rectangle4:hover .animaux {
+
+color: #DEEBFF;
+
+}
+
+
+
+
+
+
 .textRectangle1 {
 
 
 
-
-
+    margin-top: 2.5%;
+    margin-left: 3.5%;
     float: left;
 
 
@@ -328,7 +585,7 @@ height: 60px;
     width: 250px;
     margin-left: 18%;
     display: inline-block;
-
+    margin-top: 2.5%;
 
 
 
@@ -338,7 +595,7 @@ height: 60px;
 .textRectangle3 {
 
 
-
+    margin-top: 2.5%;
     margin-right: 26%;
     float: right;
 
@@ -369,75 +626,207 @@ height: 60px;
 
 }
 
-.hébergement {
+
+
+.menu{
+
+   
+}
+
+.A {
+
+    text-decoration: none;
+    
+}
+
+
+.hébergements {
+  
+position: absolute;
+    width: 140px;
     font-size: 20px;
-
-
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    float: left;
-    margin-left: 65%;
-    color: #0065FC;
+margin-left: 68%;
+display: block;
+margin-top: 60px;
+color: black;
+
+  
+    font-family: 'Raleway', sans-serif;
+    
+}
 
 
+.hébergements:hover {
+position: absolute;
+    width: 200px;
+    padding-left: 2.5%;
+    margin-left: 65.5%;
+    color:#0065FC;
 
 
+}
+
+.Barre::before {
+  
+position: absolute;
+    margin-left: 68%;
+    margin-top: 60px;
+    content: "";
+    
+    height: 0.25em;
+    width: 0%;
+   
+    background-color: #0065FC;
+   
+    display:inline-block ;
+    
+
+}
+
+.Barre:hover::before{
+
+
+position: absolute;
+width: 13%;
+margin-left: 65.5%;
+margin-top: 0px;   
+    
 }
 
 .activités {
-    font-size: 20px;
-    margin-left: 5%;
-    font-weight: 500;
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-
-
-
-
-
-
-
-}
-
-.inscription {
-    font-size: 20px;
-
-    margin-right: 7%;
-    font-weight: 700;
-    color: #0065FC;
-    float: right;
-    font-family: 'Raleway', sans-serif;
-
-
-
-
-
-
-
-}
-
-.miniCercle {
-
+  
     position: absolute;
-    background-color: white;
+        width: 85px;
+        font-size: 20px;
+        font-weight: 500;
+    margin-left: 79.8%;
+    display: block;
+    margin-top: 60px;
+    color: black;
+    
+      
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    
+    
+    .activités:hover {
+    position: absolute;
+        width: 13 0px;
+        padding-left: 2.5%;
+        margin-left: 77.3%;
+      color:#0065FC;
+    
+    
+    }
+    
+    .Barre1::before {
+      
+    position: absolute;
+        margin-left: 79.8%;
+        margin-top: 60px;
+        content: "";
+        
+        height: 0.25em;
+        width: 0%;
+       
+        background-color: #0065FC;
+       
+        display:inline-block ;
+        
+    
+    }
+    
+    .Barre1:hover::before{
+    
+    
+    position: absolute;
+    width: 10%;
+    margin-left: 77.3%;
+    margin-top: 0px;   
+        
+    }
+    
 
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: inline-block;
+
+    .inscription {
+  
+        position: absolute;
+            width: 85px;
+            font-size: 20px;
+            font-weight: bold;
+        margin-left: 88.8%;
+        display: block;
+        margin-top: 60px;
+        
+     
+        
+         
+            font-family: 'Raleway', sans-serif;
+            color: #0065FC;
+        }
+        
+        
+        .inscription:hover {
+        position: absolute;
+            width: 13 0px;
+            padding-left: 2.5%;
+            margin-left: 86.3%;
+
+          
+        
+        
+        }
+
+        
+        
+        .Barre2::before {
+          
+        position: absolute;
+            margin-left: 88.8%;
+            margin-top: 60px;
+            content: "";
+            
+            height: 0.25em;
+            width: 0%;
+           
+            background-color: #0065FC;
+           
+            display:inline-block ;
+            
+        
+        }
+        
+        .Barre2:hover::before{
+        
+        
+        position: absolute;
+        width: 10%;
+        margin-left: 86.3%;
+        margin-top: 0px;   
+            
+        }
+
+
+.miniCercle{
     margin-left: 5%;
-    
-    
-
-
-    border-style: solid;
-    border-width: 2px;
+    position: absolute;
+ 
+    border-style:solid;
     border-color: #F2F2F2;
-
-
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 0.3% 0.6% 0.3% 0.6%;
+    margin-top: -0.05%;
+font-size: 14px;
+color: #0065FC;
 
 
 }
+
+
+
 
 .VieuxPort {
     position: absolute;
@@ -478,13 +867,29 @@ height: 60px;
 
 
 .Bold1 {
+    position: absolute;
     font-size: 20px;
     font-weight: bold;
     width: 200px;
     height: 10px;
     font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+    margin-top: 4%;
 
 }
+
+.Bold0 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
 
 
 .FortDePomègues {
