@@ -1,0 +1,1327 @@
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+
+
+
+    .menuflex {
+        margin-top: 5%;
+        margin-right: 0%;
+        float: none;
+        width: 120vw;
+        height: 35vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0%;
+        margin-left: -30%;
+    }
+
+    .menuflex :nth-child(1) {
+        order: 2;
+    }
+
+    .menuflex :nth-child(2) {
+        order: 3;
+    }
+
+    .menuflex :nth-child(3) {
+        order: 1;
+    }
+
+    .barreflex {
+        position: relative;
+        margin-right: 34vw;
+        width: 20vw;
+        height: 7vw;
+        margin-top: 3vw;
+    }
+
+    .barreflex1 {
+        position: relative;
+        margin-top: 3vw;
+        width: 20vw;
+        height: 7vw;
+    }
+
+    .hebergement {
+        width: 13vw;
+        height: 5.5vw;
+        color: black;
+        font-size: 19px;
+        font-weight: 500;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .activites {
+        width: 14vw;
+        font-size: 19px;
+        font-weight: 500;
+        margin-top: 0%;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .barreflex2 {
+        position: relative;
+        width: 40vw;
+        height: 5.5vw;
+        margin-left: 40%;
+        margin-top: 7%;
+    }
+
+
+
+    .inscription {
+        margin-left: 30%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+
+
+
+    .Bold {
+        margin-top: 8%;
+        font-size: 25px;
+        margin-left: 5%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+
+    .normal {
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
+
+    .text {
+        border: none;
+        width: 60vw;
+        height: 12.8vw;
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        z-index: 2;
+        outline: none;
+    }
+
+
+
+
+
+
+    .rechercher2 {
+        background-color: #F2F2F2;
+        width: 75vw;
+        height: 13.6vw;   
+        border-radius: 16px 0px 0px 16px;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        margin-top: 8vw;
+        padding-top: 0.300%;
+        padding-bottom: 0.0080%;
+        margin-right: 0%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 1.5%;
+        gap: 5%;
+    }
+
+    .location {
+        margin-top: 4%;
+        justify-content: y;
+        font-size: 6vw;
+        width: 5vw;
+        height: 5vw;
+        margin-left: 3%;
+    }
+
+    .rechercherflex {
+
+        width: 140%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rechercher3 {
+        background-color: #0065FC;
+        width: 13.5vw;
+        height: 13.7vw;
+        border-radius: 16px 16px 16px 16px;
+        float: right;
+        margin-right: 0%;
+        margin-top: 8vw;
+        margin-left: -2%;
+        z-index: 3;
+    }
+
+    .rechercher4 {
+        width: 0px;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 0;
+        font-size: 0px;
+        margin-left: 15%;
+        margin-top: 8%;
+    }
+
+    .search {
+        width: 100%;
+        text-align: center;
+        font-size: 4.5vw;
+        margin-top: 40%;
+        color: white;
+    }
+
+    .Bold6 {
+        font-size: 20px;
+        margin-left: 4.5vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        margin-top: 15px;
+        background-color: white;
+        width: 60px;
+        height: 30px;
+    }
+
+    .mobilefiltreflex {
+        width: 100vw;
+        flex-direction: column;
+        display: flex;
+        margin-left: 0%;
+        margin-bottom: 20%;
+    }
+
+    .cercle {
+        background-color: #DEEBFF;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        margin-top: -1.5%;
+        margin-left: -2%;
+    }
+
+    .cercle:hover {
+        background-color: #0065FC;
+    }
+
+    .bill {
+        width: 55px;
+        height: 32.5px;
+        text-align: center;
+        padding-top: 35%;
+        border-radius: 50%;
+        z-index: 2;
+        margin-left: 0%;
+        font-size: 17px;
+        color: #0065FC;
+    }
+
+    .bill:hover {
+        color: white;
+    }
+
+    .rectangle1 {
+        background-color: white;
+        width: 200px;
+        height: 51.5px;
+        border-radius: 33px 33px 33px 33px;
+        border-style: solid;
+        border-color: #DADADA;
+        margin-left: 0%;
+    }
+
+    .rectangle1flex {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 7%;
+    }
+
+    .rectangle1:hover .economique {
+        color: #DEEBFF;
+    }
+
+    .rectangle1:hover .cercle {
+        background-color: #0065FC;
+    }
+
+    .rectangle1:hover .bill {
+        color: white;
+    }
+
+
+    .filtresflex {
+        width: 100%;
+        height: 250px;
+        z-index: 4;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 0%;
+        gap: 1%;
+    }
+
+    .economique {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 6%;
+    }
+
+    .cercle1 {
+        background-color: #DEEBFF;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        margin-top: -1.5%;
+        margin-left: -2%;
+        z-index: 2;
+    }
+
+    .familial {
+        font-family: 'Raleway', sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+
+    .child {
+        font-size: 23px;
+        padding-top: 35%;
+        text-align: center;
+        color: #0065FC;
+    }
+
+
+
+    .rectangle2 {
+        background-color: white;
+        width: 150px;
+        height: 51.5px;
+        border-radius: 33px 33px 33px 33px;
+        border-style: solid;
+        border-color: #DADADA;
+    }
+
+
+    .rectangle2:hover .cercle1 {
+        background-color: #0065FC;
+    }
+
+    .rectangle2:hover .child {
+        color: white;
+    }
+
+    .rectangle2:hover .familial {
+        color: #DEEBFF;
+    }
+
+    .romantique {
+        font-family: 'Raleway', sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+
+
+
+    .cercle2 {
+        background-color: #DEEBFF;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        margin-top: -1.5%;
+        margin-left: -2%;
+        z-index: 2;
+    }
+
+
+    .coeur {
+        font-size: 20px;
+        color: #0065FC;
+        padding-top: 35%;
+        text-align: center;
+    }
+
+
+
+    .rectangle3 {
+        background-color: white;
+        width: 200px;
+        height: 51.5px;
+        border-radius: 33px 33px 33px 33px;
+        border-style: solid;
+        border-color: #DADADA;
+        margin-left: 0%;
+    }
+
+
+
+    .rectangle3:hover .cercle2 {
+        background-color: #0065FC;
+    }
+
+    .rectangle3:hover .coeur {
+        color: white;
+    }
+
+    .rectangle3:hover .romantique {
+        color: #DEEBFF;
+    }
+
+    .animaux {
+        font-family: 'Raleway', sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 6%;
+        width: 200px;
+    }
+
+    .cercle3 {
+        background-color: #DEEBFF;
+        width: 59px;
+        height: 56px;
+        border-radius: 50%;
+        margin-top: -1.5%;
+        margin-left: -2%;
+        z-index: 2;
+    }
+
+
+    .chien {
+        padding-top: 35%;
+        text-align: center;
+        font-size: 20px;
+        color: #0065FC;
+    }
+
+
+
+
+    .rectangle4 {
+        background-color: white;
+        width: 260px;
+        height: 51.5px;
+        border-radius: 33px 33px 33px 33px;
+        border-style: solid;
+        border-color: #DADADA;
+    }
+
+    .rectangle4:hover .chien {
+        color: white;
+    }
+
+    .rectangle4:hover .cercle3 {
+        background-color: #0065FC;
+    }
+
+    .rectangle4:hover .animaux {
+        color: #DEEBFF;
+    }
+
+    .HebergementBoldMobile {
+        position: absolute;
+        margin-left: 4.5%;
+        margin-top: -42%;
+        font-size: 0px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .populairehref {
+        text-decoration: none;
+        color: black;
+        width: 222.5px;
+        height: 160px;
+        border-radius: 28px;
+    }
+
+    .carreFlex {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 3%;
+        margin: 0% 0% 4% 4.5%;
+    }
+
+    .carreFlex1 {
+        width: 100%;
+        height: 1650px;
+        border-radius: 28px;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: start;
+        padding: 4% 0.3% 0% 0.3%;
+        gap: 2%;
+        margin-top: 5%;
+    }
+
+    .carre1 {
+        background-color: white;
+        width: 100%;
+        height: 1600px;
+        border-radius: 28px;
+        padding-top: 3%;
+        margin-top: 10%
+    }
+
+    .carreFlex2 {
+        width: 100%;
+        height: 700px;
+        border-radius: 28px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 6.25%;
+        margin-top: 10.5%;
+        padding-left: 0%;
+        margin-left: 4.5%;
+    }
+
+    .carreflex3 {
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        height: 170px;
+        border-radius: 28px;
+        flex-wrap: wrap;
+        gap: 24%;
+        margin-top: 3%;
+    }
+
+    .carre2 {
+        background-color: #F2F2F2;
+        width: 103.5%;
+        margin-top: 5%;
+        border-radius: 0px;
+        margin-left: -5%;
+        height: 780px;
+    }
+
+    .aside {
+        width: max-content;
+        height: max-content;
+    }
+
+    .starFlex1 {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        gap: 6%;
+    }
+
+    .Soleil0 {
+        background-color: white;
+        width: 332.5px;
+        display: flex;
+        gap: 7%;
+        height: 140px;
+        border-radius: 28px;
+        padding: 1.9% 0% 3% 1.9%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Soleil {
+        background-color: white;
+        background-image: url(/img/hebergements/soleil.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 170%;
+        object-fit: cover;
+        border-radius: 22px 0px 0px 22px;
+        width: 130px;
+        height: 143px
+    }
+
+    .Eau0 {
+        background-color: white;
+        width: 332.5px;
+        display: flex;
+        gap: 7%;
+        height: 140px;
+        border-radius: 28px;
+        padding: 1.9% 0% 3.2% 2%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+
+    .Eau {
+        background-color: white;
+        background-image: url(/img/hebergements/eau.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 152%;
+        object-fit: contain;
+        border-radius: 22px 0px 0px 22px;
+        width: 130px;
+        height: 143px
+    }
+
+    .Bleu0 {
+        background-color: white;
+        width: 332.5px;
+        display: flex;
+        gap: 7%;
+        height: 140px;
+        border-radius: 28px;
+        padding: 1.9% 0% 3% 1.9%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Bleu {
+        background-color: white;
+        background-image: url(/img/hebergements/bleu.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 108%;
+        object-fit: contain;
+        border-radius: 22px 0px 0px 22px;
+        width: 130px;
+        height: 143px
+    }
+
+
+
+    .CarreBold01 {
+        font-weight: bold;
+        font-size: 19px;
+        width: 250px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0%;
+    }
+
+
+    .CarreText3 {
+        font-size: 15px;
+        margin-top: -20%;
+        margin-bottom: 0%;
+        width: 180px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    .CarreBold4 {
+        font-size: 16px;
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: -2.6%;
+    }
+
+
+    .HebergementBold {
+        margin-left: 4.5%;
+        margin-top: 0%;
+        margin-bottom: 20%;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+
+    .HebergementBold1 {
+        margin-left: 2.5%;
+        height: 32px;
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    .activitesflex {
+        display: flex;
+        width: 100%;
+        height: 1500px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 4.5%;
+        margin-top: 10%;
+        gap: 3%;
+
+    }
+
+    .activitesflex1 {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0%;
+    }
+
+    .activitesflex2 {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .fas.fa-chart-line {
+        margin-left: 20%;
+        font-size: 25px;
+    }
+
+    .VieuxPortHref {
+        text-decoration: none;
+        color: black;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+    }
+
+    .VieuxPort0 {
+        background-color: white;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+        margin-top: 0%;
+        box-shadow: 0px 0px 7px 7px #F2F2F2;
+    }
+
+    .VieuxPort {
+        background-image: url(/img/activites/vieuxport.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: 100%;
+        z-index: 1;
+        border-radius: 28px 28px 0% 0%;
+        width: 330px;
+        height: 150px;
+        margin-top: 0%;
+        margin-bottom: 6%;
+    }
+
+
+    .FortHref {
+        text-decoration: none;
+        color: black;
+        background-color: blue;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+    }
+
+    .FortDePomegues {
+        background-color: white;
+        background-image: url(/img/activites/frioul.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -130px;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 28px 28px 0% 0%;
+        width: 330px;
+        height: 150px;
+        margin-bottom: 6%;
+    }
+
+    .FortDePomegues0 {
+        background-color: white;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+        padding-bottom: 5%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .PortHref {
+        text-decoration: none;
+        color: black;
+        background-color: blue;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+        margin-top: 16%;
+    }
+
+    .Port {
+        background-color: white;
+        background-image: url(/img/activites/port.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -15px;
+        background-size: 100%;
+        overflow: hidden;
+        margin-bottom: 6%;
+        border-radius: 28px 28px 0% 0%;
+        width: 330px;
+        height: 150px;
+    }
+
+    .Port0 {
+        background-color: white;
+        width: 330px;
+        margin-bottom: 0%;
+        height: 200px;
+        border-radius: 28px;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .CalanquesHref {
+        text-decoration: none;
+        color: black;
+        width: 330px;
+        margin-top: 0%;
+        height: 200px;
+        border-radius: 28px;
+    }
+
+
+    .Calanques {
+        background-color: white;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+        margin-top: 0%;
+        box-shadow: 0px 0px 7px 7px #F2F2F2;
+        padding-bottom: 6%;
+    }
+
+
+
+    .Calanques0 {
+        background-image: url(/img/activites/calanques.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: 100%;
+        z-index: 1;
+        border-radius: 28px 28px 0% 0%;
+        width: 330px;
+        height: 150px;
+        margin-top: 0%;
+        margin-bottom: 0.1%;
+    }
+
+    .Bold3 {
+        font-size: 19px;
+        margin-left: 5%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-top: 15px;
+        float: left;
+        background-color: white;
+        width: 300px;
+    }
+
+
+    .NotreDameHref {
+        width: 330px;
+        border-radius: 28px;
+        height: 200px;
+        text-decoration: none;
+        padding-bottom: 5%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .NotreDame {
+        background-color: white;
+        background-image: url(/img/activites/notredame.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 28px 28px 0% 0%;
+        width: 330px;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .NotreDame0 {
+        color: black;
+        background-color: white;
+        width: 330px;
+        border-radius: 28px;
+        height: 200px;
+        padding-bottom: 6%;
+        margin-bottom: 0%;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .ParcHref {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+        margin-top: 11.5%;
+        padding-bottom: 6%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Parc {
+        background-color: white;
+        background-image: url(/img/activites/parc5.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: 100%;
+        object-fit: cover;
+        margin-bottom: 6%;
+        border-radius: 28px 28px 0% 0%;
+        width: 330px;
+        height: 150px;
+    }
+
+    .Parc0 {
+        background-color: white;
+        width: 330px;
+        height: 200px;
+        border-radius: 28px;
+        padding-bottom: 6%;
+    }
+
+    .rectangle {
+        background-color: #F2F2F2;
+        width: 103.5%;
+        height: 700px;
+        margin: 9% 0% 1% 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 17%;
+    }
+
+    .textRectangle1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        height: 150px;
+        justify-content: space-evenly;
+    }
+
+    .textRectangle2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+
+    .textRectangle3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+
+
+
+
+
+    .textBold {
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    .textBold1 {
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .textBold2 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 4.5%;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0%;
+    }
+
+    .Bold2 {
+        font-size: 30px;
+        margin-left: 5%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-top: 65%;
+        position: relative;
+    }
+
+    .rechercherBarre {
+        background-color: white;
+        width: 4%;
+        height: 13.1vw;
+        margin-left: -5.2%;
+        z-index: 1;
+    }
+
+    .infoflex {
+        position: absolute;
+        z-index: 6;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 3%;
+        margin-top: -15%;
+    }
+
+    .normal1 {
+        font-size: 4vw;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .miniCercle {
+        margin-left: 5%;
+        text-align: center;
+        width: 4.3vw;
+        height: 3.2vw;
+        border-style: solid;
+        border-color: #F2F2F2;
+        border-width: 0.4vw;
+        border-radius: 5vw;
+        padding: 0.9% 0.6% 0.9% 0.6%;
+        margin-top: -0.05%;
+        font-size: 2.7vw;
+        color: #0065FC;
+    }
+
+
+    .Barre:hover::before {
+        position: absolute;
+        margin-left: -56%;
+        content: "";
+        margin-top: 40%;
+        height: 3px;
+        width: 280%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barreflex:hover {
+        position: relative;
+        margin-right: 34vw;
+        width: 20vw;
+        height: 7vw;
+        margin-top: 3vw;
+    }
+
+
+    .barreflex:hover .hebergement {
+        width: 13vw;
+        height: 5.5vw;
+        color: #0065FC;
+        font-size: 19px;
+        font-weight: 500;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        padding-left: 0%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .Barre::before {
+        position: absolute;
+        margin-left: -56%;
+        content: "";
+        margin-top: 40%;
+        height: 3px;
+        width: 280%;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barreflex1:hover {
+        position: relative;
+        margin-top: 3vw;
+        width: 20vw;
+        height: 7vw;
+    }
+
+
+
+    .Barre1:hover .activites {
+        width: 14vw;
+        font-size: 19px;
+        font-weight: 500;
+        margin-top: 0%;
+        margin-right: 0%;
+        color: #0065FC;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .Barre1::before {
+        position: absolute;
+        margin-top: 40%;
+        content: "";
+        margin-left: -80%;
+        height: 3px;
+        width: 240%;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Barre1:hover::before {
+        position: absolute;
+        margin-top: 40%;
+        content: "";
+        margin-left: -80%;
+        height: 3px;
+        width: 240%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barreflex2:hover {       
+        position: relative;
+        width: 40vw;
+        height: 5.5vw;
+        margin-left: 50%;
+        margin-top: 7%;
+    }
+
+    .Barre2:hover .inscription {
+        margin-left: 30%;
+        margin-top: 0vw;
+        margin-right: 0vw;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+    .Barre2::before {
+        position: absolute;
+        content: "";
+        height: 0.25em;
+        width: 0%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Barre2:hover::before {
+        background-color: white;
+        height: 0.21em;
+        width: 0%;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+
+    .logo {
+        display: block;
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 5%;
+        width: 16.5vw;
+    }
+
+    .logoReservia {
+        position: absolute;
+        margin-top: -35vw;
+        width: 25vw;
+        height: 16.5vw;
+        margin-bottom: 0%;
+        margin-left: 5%;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+
+    .inscription {
+        margin-left: 30%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+    .Barre2:hover .inscription {
+        margin-left: 30%;
+        margin-right: 0vw;
+        margin-top: 1%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+    .rechercherBarre {
+        background-color: white;
+        width: 4%;
+        height: 13.4vw;
+        margin-left: -6.2%;
+        z-index: 1;
+    }
+
+    .aside {
+        width: max-content;
+        height: max-content;
+    }
+
+    .carre2 {
+        background-color: #F2F2F2;
+        width: 105.5%;
+        margin-top: 7%;
+        border-radius: 0px;
+        margin-left: -8%;
+        height: 720px;
+    }
+
+
+    .activitesflex {
+        display: flex;
+        width: 100%;
+        height: 1500px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 0.5%;
+        margin-top: 10%;
+        gap: 3%;
+    }
+
+    .infoflex {
+        position: absolute;
+        z-index: 6;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 3%;
+        margin-top: -10%;
+    }
+
+}
+
+@media only screen and (min-width: 414px) and (max-width: 414px) {
+
+    .rechercherBarre {
+        background-color: white;
+        width: 4%;
+        height: 13.2vw;
+        margin-left: -6.2%;
+        z-index: 1;
+    }
+
+    .Barre:hover::before {
+        position: absolute;
+        margin-left: -56%;
+        content: "";
+        margin-top: 40%;
+        height: 3px;
+        width: 280%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inscription {
+        margin-left: 42%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+
+
+    .Barre2:hover .inscription {
+        margin-left: 42%;
+        margin-right: 0vw;
+        margin-top: 1%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+
+}
+
+@media only screen and (min-width: 411px) and (max-width: 411px) {
+
+    .Barre:hover::before {
+        position: absolute;
+        margin-left: -56%;
+        content: "";
+        margin-top: 40%;
+        height: 3px;
+        width: 280%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inscription {
+        margin-left: 42%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+
+
+    .Barre2:hover .inscription {
+        margin-left: 42%;
+        margin-right: 0vw;
+        margin-top: 1%;
+        width: 17.5vw;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+}

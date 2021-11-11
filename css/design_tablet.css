@@ -1,0 +1,1442 @@
+@media only screen and (min-width: 540px) and (max-width: 800px) {
+
+    .menuflex {
+        margin-top: 5%;
+        margin-right: 0%;
+        float: none;
+        width: 95vw;
+        height: 25vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 6%;
+    }
+
+    .menuflex :nth-child(1) {
+        order: 2;
+    }
+
+    .menuflex :nth-child(2) {
+        order: 3;
+    }
+
+    .menuflex :nth-child(3) {
+        order: 1;
+    }
+
+    .barreflex {
+        position: relative;
+        width: 28vw;
+        height: 7vw;
+        margin-top: 6vw;
+        margin-right: 19vw;
+    }
+
+    .barreflex1 {
+        position: relative;
+        margin-top: 5.3vw;
+        width: 17vw;
+        height: 7vw;
+        margin-right: 14vw;
+    }
+
+    .hebergement {
+        position: relative;
+        width: 13vw;
+        height: 5.5vw;
+        color: black;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .activites {
+        position: relative;
+        width: 14vw;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 0%;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .barreflex2 {
+        position: relative;
+        display: flex;
+        justify-content: right;
+        width: 35vw;
+        height: 5.5vw;
+        margin-top: 6vw;
+        margin-left: 10vw;
+        margin-right: 2vw;
+    }
+
+    .inscription {
+        margin-right: 0vw;
+        width: 17.5vw;
+        font-size: 3vw;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+    .Bold {
+        margin-top: 8%;
+        font-size: 6vw;
+        margin-left: 5%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-bottom: 2vw;
+    }
+
+    .normal {
+        font-size: 4vw;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 5%;
+        margin-bottom: 7vw;
+    }
+
+    .text {
+        border: none;
+        width: 60vw;
+        height: 12.8vw;
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        z-index: 2;
+        outline: none;
+    }
+
+    .rechercher2 {
+        background-color: #F2F2F2;
+        width: 75vw;
+        height: 13.6vw;       
+        border-radius: 16px 0px 0px 16px;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        margin-top: 8vw;
+        padding-top: 0.300%;
+        padding-bottom: 0.0080%;
+        margin-right: 0%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 1.5%;
+        gap: 5%;
+    }
+
+    .location {
+        margin-top: 4%;      
+        font-size: 6vw;
+        width: 5vw;
+        height: 5vw;
+        margin-left: 3%;
+    }
+
+    .rechercherflex {
+        width: 140%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rechercher3 {
+        background-color: #0065FC;
+        width: 13.5vw;
+        height: 13.7vw;       
+        border-radius: 16px 16px 16px 16px;
+        float: right;
+        margin-right: 0%;
+        margin-top: 8vw;
+        margin-left: -2%;
+        z-index: 3;
+    }
+
+    .rechercher4 {
+        width: 0px;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 0;
+        font-size: 0px;
+        margin-left: 15%;
+        margin-top: 8%;
+    }
+
+    .search {
+        width: 100%;
+        text-align: center;
+        font-size: 4.5vw;
+        margin-top: 40%;
+        color: white;
+    }
+
+    .Bold6 {
+        font-size: 4vw;
+        margin-left: 4.5vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        margin-top: 15px;
+        background-color: white;
+        width: 60px;
+        height: 30px;
+    }
+
+    .mobilefiltreflex {
+        width: 100vw;
+        flex-direction: column;
+        display: flex;
+        margin-left: 0%;
+        margin-bottom: 20%;
+    }
+
+    .cercle {
+        background-color: #DEEBFF;
+        width: 9.5vw;
+        height: 9.5vw;
+        border-radius: 50%;
+        margin-top: -1.25%;
+        margin-left: -1.25%;
+    }
+
+    .cercle:hover {
+        background-color: #0065FC;
+    }
+
+    .bill {
+        width: 100%;
+        font-size: 3vw;
+        padding-top: 35%;
+        color: #0065FC;
+    }
+
+    .bill:hover {
+        color: white;
+    }
+
+    .rectangle1 {
+        background-color: white;
+        width: 32vw;
+        height: 9vw;
+        border-radius: 8vw 8vw 8vw 8vw;
+        border-style: solid;
+        border-color: #DADADA;
+        margin-left: 0vw;
+    }
+
+    .rectangle1flex {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 7%;
+    }
+
+    .rectangle1:hover .economique {
+        color: #DEEBFF;
+    }
+
+    .rectangle1:hover .cercle {
+        background-color: #0065FC;
+    }
+
+    .rectangle1:hover .bill {
+        color: white;
+    }
+
+    .filtresflex {
+        width: 100%;
+        height: 30vw;
+        z-index: 4;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 0%;
+        gap: 1%;
+    }
+
+    .economique {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+
+    .cercle1 {
+        background-color: #DEEBFF;
+        width: 9.5vw;
+        height: 9.5vw;
+        border-radius: 50%;
+        margin-top: -1.5%;
+        margin-left: -2%;
+        z-index: 2;
+    }
+
+
+
+    .familial {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+
+    .child {
+        font-size: 4vw;
+        padding-top: 35%;
+        text-align: center;
+        color: #0065FC;
+    }
+
+
+
+    .rectangle2 {
+        background-color: white;
+        width: 25vw;
+        height: 9vw;
+        border-radius: 8vw 8vw 8vw 8vw;
+        border-style: solid;
+        border-color: #DADADA;
+        margin-left: 0vw;
+    }
+
+    .rectangle2:hover .cercle1 {
+        background-color: #0065FC;
+    }
+
+    .rectangle2:hover .child {
+        color: white;
+    }
+
+    .rectangle2:hover .familial {
+        color: #DEEBFF;
+    }
+
+    .romantique {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+
+    .cercle2 {
+        background-color: #DEEBFF;
+        width: 9.5vw;
+        height: 9.5vw;
+        border-radius: 50%;
+        margin-top: -1.5%;
+        margin-left: -2%;
+        z-index: 2;
+    }
+
+    .coeur {
+        font-size: 3.5vw;
+        color: #0065FC;
+        padding-top: 35%;
+        text-align: center;
+    }
+
+    .rectangle3 {
+        background-color: white;
+        width: 32vw;
+        height: 9vw;
+        border-radius: 8vw 8vw 8vw 8vw;
+        border-style: solid;
+        border-color: #DADADA;
+        margin-left: 0vw;
+    }
+
+    .rectangle3:hover .cercle2 {
+        background-color: #0065FC;
+    }
+
+    .rectangle3:hover .coeur {
+        color: white;
+    }
+
+    .rectangle3:hover .romantique {
+        color: #DEEBFF;
+    }
+
+    .animaux {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        margin-top: 6%;
+        width: 30vw;
+        padding-right: 2vw;
+    }
+
+    .cercle3 {
+        background-color: #DEEBFF;
+        width: 9.5vw;
+        height: 9.5vw;
+        border-radius: 50%;
+        margin-top: -1.25%;
+        margin-left: -1.25%;
+        z-index: 2;
+    }
+
+    .chien {
+        padding-top: 35%;
+        text-align: center;
+        font-size: 3.5vw;
+        color: #0065FC;
+    }
+    .rectangle4 {
+        background-color: white;
+        width: 41vw;
+        height: 9vw;
+        border-radius: 8vw 8vw 8vw 8vw;
+        border-style: solid;
+        border-color: #DADADA;
+        margin-left: 0vw;
+    }
+
+    .rectangle4:hover .chien {
+        color: white;
+    }
+
+    .rectangle4:hover .cercle3 {
+        background-color: #0065FC;
+    }
+
+    .rectangle4:hover .animaux {
+        color: #DEEBFF;
+    }
+
+    .HebergementBoldMobile {
+        position: absolute;
+        margin-left: 4.5%;
+        margin-top: -42%;
+        font-size: 0px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .populairehref {
+        text-decoration: none;
+        color: black;
+        width: 222.5px;
+        height: 160px;
+        border-radius: 28px;
+    }
+
+    .carreFlex {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 3%;
+        margin: 0% 0% 4% 0%;
+    }
+
+    .carreFlex1 {
+        width: 100%;
+        height: 250vw;
+        border-radius: 28px;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: start;
+        padding: 4% 0.3% 0% 16%;
+        gap: 2%;
+        margin-top: 5%;
+    }
+
+    .carre1 {
+        background-color: white;
+        width: 100%;
+        height: 240vw;
+        border-radius: 28px;
+        padding-top: 3%;
+        margin-top: 10%
+    }
+
+    .carreFlex2 {
+        width: 100%;
+        height: 116vw;
+        border-radius: 28px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 9.25%;
+        margin-top: 10.5%;
+        padding-left: 15%;
+        margin-left: 0%;
+    }
+
+    .carreflex3 {
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        height: 170px;
+        border-radius: 28px;
+        flex-wrap: wrap;
+        gap: 24%;
+        margin-top: 3%;
+    }
+
+
+    .aside {
+        width: max-content;
+        height: max-content;
+    }
+
+    .carre2 {
+        background-color: #F2F2F2;
+        width: 103.5%;
+        height: 137vw;
+        margin-top: 10vw;
+        border-radius: 0px;
+        margin-left: -2%;
+    }
+
+    .starFlex1 {
+        font-size: 2.5vw;
+        margin-top: -10%;
+        width: 100%;
+        display: flex;
+        gap: 6%;
+    }
+
+    .Soleil0 {
+        background-color: white;
+        width: 70vw;
+        display: flex;
+        gap: 7%;
+        height: 25vw;
+        border-radius: 3.5vw;
+        padding: 2.2% 0% 2.2% 2.2%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Soleil {
+        background-color: white;
+        background-image: url(/img/hebergements/soleil.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 170%;
+        object-fit: cover;
+        border-radius: 3vw 0px 0px 3vw;
+        width: 26vw;
+        height: 25vw;
+    }
+
+    .Eau0 {
+        background-color: white;
+        width: 70vw;
+        display: flex;
+        gap: 7%;
+        height: 25vw;
+        border-radius: 3.5vw;
+        padding: 2.2% 0% 2.2% 2.2%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+
+    .Eau {
+        background-color: white;
+        background-image: url(/img/hebergements/eau.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 152%;
+        object-fit: contain;
+        border-radius: 3vw 0px 0px 3vw;
+        width: 26vw;
+        height: 25vw;
+    }
+
+
+    .Bleu0 {
+        background-color: white;
+        width: 70vw;
+        display: flex;
+        gap: 7%;
+        height: 25vw;
+        border-radius: 3.5vw;
+        padding: 2.2% 0% 2.2% 2.2%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+
+
+    .Bleu {
+        background-color: white;
+        background-image: url(/img/hebergements/bleu.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 108%;
+        object-fit: contain;
+        border-radius: 3vw 0px 0px 3vw;
+        width: 26vw;
+        height: 25vw;
+    }
+
+
+
+    .CarreBold01 {
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 3.5vw;
+        width: 260px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    .CarreText3 {
+        font-size: 3vw;
+        margin-top: -14%;
+        width: 220px;
+        height: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    .CarreBold4 {
+        font-size: 3vw;
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: -2.6%;
+    }
+
+
+    .HebergementBold {
+        margin-left: 12%;
+        margin-top: 0%;
+        margin-bottom: 20%;
+        font-size: 4vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+
+    .HebergementBold1 {
+        height: 4vw;
+        font-size: 5vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    .activitesflex {
+        display: flex;
+        width: 90%;
+        height: 550vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 4.5%;
+        margin-top: 10%;
+        gap: 2%;
+    }
+
+    .activitesflex1 {
+        display: flex;
+        width: 100%;
+        height: 110vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0%;
+        z-index: 6;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .activitesflex2 {
+        display: flex;
+        width: 100%;
+        height: 120vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0%;
+    }
+
+    .fas.fa-chart-line {
+        position: absolute;
+        margin-left: 18vw;
+        font-size: 5vw;
+    }
+
+    .VieuxPortHref {
+        text-decoration: none;
+        color: black;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+        margin-bottom: 0%;
+    }
+
+
+
+
+    .VieuxPort0 {
+        background-color: white;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+        margin-top: 0%;
+        box-shadow: 0px 0px 7px 7px #F2F2F2;
+        margin-bottom: 0%;
+        padding-bottom: 4%;
+    }
+
+
+
+    .VieuxPort {
+        background-image: url(/img/activites/vieuxport.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: 100%;
+        z-index: 1;
+        border-radius: 28px 28px 0% 0%;
+        width: 80vw;
+        height: 36vw;
+        margin-top: 0%;
+    }
+
+
+    .FortHref {
+        text-decoration: none;
+        color: black;
+        background-color: blue;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+    }
+
+    .FortDePomegues {
+        background-color: white;
+        background-image: url(/img/activites/frioul.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 39%;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 28px 28px 0% 0%;
+        width: 80vw;
+        height: 36vw;
+        margin-bottom: 5%;
+    }
+
+    .FortDePomegues0 {
+        background-color: white;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+        padding-bottom: 5%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .PortHref {
+        text-decoration: none;
+        color: black;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+    }
+
+    .Port {
+        background-color: white;
+        background-image: url(/img/activites/port.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -15px;
+        background-size: 100%;
+        overflow: hidden;
+        margin-bottom: 6%;
+        border-radius: 28px 28px 0% 0%;
+        width: 80vw;
+        height: 36vw;
+    }
+
+    .Port0 {
+        background-color: white;
+        margin-bottom: 0%;
+        border-radius: 28px;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+        width: 80vw;
+        height: 45vw;
+    }
+
+    .CalanquesHref {
+        margin-top: 0%;
+        text-decoration: none;
+        color: black;      
+        width: 80vw;
+        height: 50vw;
+        border-radius: 28px;
+        z-index: 10;
+    }
+
+    .Calanques {
+        background-color: white;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+        box-shadow: 0px 0px 7px 7px #F2F2F2;
+        padding-bottom: 6%;
+        margin-top: 0%;
+    }
+
+    .Calanques0 {
+        background-image: url(/img/activites/calanques.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: 100%;
+        z-index: 1;
+        border-radius: 28px 28px 0% 0%;
+        width: 80vw;
+        height: 36vw;      
+        margin-top: 0%;
+        margin-bottom: 0.1%;
+    }
+
+    .Bold3 {
+        font-size: 3.5vw;
+        margin-left: 5%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-top: 15px;
+        float: left;
+        background-color: white;
+        width: 400px;
+    }
+
+    .NotreDameHref {
+        border-radius: 28px;
+        text-decoration: none;
+        padding-bottom: 5%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+        width: 80vw;
+        height: 45vw;
+    }
+
+    .NotreDame {
+        background-color: white;
+        background-image: url(/img/activites/notredame.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 28px 28px 0% 0%;
+        width: 80vw;
+        height: 36vw;
+        margin-bottom: 2%;
+    }
+
+    .NotreDame0 {
+        color: black;
+        background-color: white;
+        border-radius: 28px;
+        padding-bottom: 6%;
+        width: 80vw;
+        height: 45vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .ParcHref {
+        text-decoration: none;
+        color: black;
+        width: 80vw;
+        height: 45vw;
+        box-shadow: unset;
+        margin-top: 11.5%;
+        padding-bottom: 6%;
+    }
+
+    .Parc {
+        background-color: white;
+        background-image: url(/img/activites/parc5.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: 100%;
+        object-fit: cover;
+        margin-bottom: 6%;
+        border-radius: 28px 28px 0% 0%;
+        width: 80vw;
+        height: 36vw;
+    }
+
+    .Parc0 {
+        background-color: white;
+        width: 80vw;
+        height: 45vw;
+        border-radius: 28px;
+        padding-bottom: 6%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+
+
+    .rectangle {
+        background-color: #F2F2F2;
+        width: 103.5%;
+        height: 800px;
+        padding-top: 3%;
+        margin: -190% 0% 1% 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 17%;
+    }
+
+
+
+    .textRectangle1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+
+    .textRectangle2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+
+    .textRectangle3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+
+    .textBold {
+        font-size: 4vw;
+        margin-bottom: 4%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    .textBold1 {
+        font-size: 3.5vw;
+        margin-bottom: 2%;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .textBold2 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        margin-left: 12%;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0%;
+    }
+
+    .Bold2 {
+        font-size: 30px;
+        margin-left: 12%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-top: 45%;
+        position: relative;
+    }
+
+    .rechercherBarre {
+        background-color: white;
+        width: 4%;
+        height: 13.1vw;
+        margin-left: -5.2%;
+        z-index: 1;
+    }
+
+    .infoflex {
+        position: absolute;
+        z-index: 6;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 3%;
+        margin-top: -12%;
+    }
+
+    .normal1 {
+        font-size: 4vw;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .miniCercle {
+        margin-left: 5%;
+        text-align: center;
+        width: 4.3vw;
+        height: 3.2vw;
+        border-style: solid;
+        border-color: #F2F2F2;
+        border-width: 0.4vw;
+        border-radius: 5vw;
+        padding: 0.9% 0.6% 0.9% 0.6%;
+        margin-top: -0.05%;
+        font-size: 2.7vw;
+        color: #0065FC;
+    }
+
+
+    .Barre:hover::before {
+        position: absolute;
+        margin-left: -25%;
+        content: "";
+        margin-top: 23%;
+        height: 0.19em;
+        width: 169%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barreflex:hover {
+        position: relative;
+        width: 28vw;
+        height: 7vw;
+        margin-top: 6vw;
+        margin-right: 19vw;
+    }
+
+
+    .barreflex:hover .hebergement {
+        position: relative;
+        width: 13vw;
+        height: 5.5vw;
+        color: #0065FC;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        padding-left: 0%;
+        margin-top: 0%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .Barre::before {
+        position: absolute;
+        margin-left: -24%;
+        content: "";
+        margin-top: 23%;
+        height: 0.19em;
+        width: 169%;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barreflex1:hover {
+        position: relative;
+        margin-top: 5.3vw;
+        width: 17vw;
+        height: 7vw;
+        margin-right: 14vw;
+    }
+
+    .Barre1:hover .activites {
+        position: relative;
+        width: 14vw;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 0%;
+        padding-left: 0%;
+        color: #0065FC;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .Barre1::before {
+        margin-top: 40%;
+        position: absolute;
+        content: "";
+        margin-left: -102%;
+        height: 0.19em;
+        width: 280%;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Barre1:hover::before {
+        margin-top: 40%;
+        position: absolute;
+        content: "";
+        margin-left: -102%;
+        height: 0.19em;
+        width: 280%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barreflex2:hover {
+        position: relative;
+        display: flex;
+        justify-content: right;
+        width: 35vw;
+        height: 5.5vw;
+        margin-top: 6vw;
+        margin-left: 10vw;
+        margin-right: 2vw;
+        padding-right: 0%;
+    }
+
+    .Barre2:hover .inscription {
+        margin-top: 0%;
+        margin-right: 0vw;
+        width: 17.5vw;
+        font-size: 3vw;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #0065FC;
+    }
+
+
+
+    .Barre2::before {
+        content: "";
+        height: 0.25em;
+        width: 0%;
+        background-color: #0065FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Barre2:hover::before {
+        background-color: white;
+        height: 0.21em;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0%;
+        margin-bottom: 1%;
+        padding-right: 0%;
+    }
+
+
+    .logo {
+        display: block;
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 5%;
+        width: 16.5vw;
+    }
+
+    .logoReservia {
+        position: absolute;
+        margin-top: -29vw;
+        width: 25vw;
+        height: 16.5vw;
+        margin-bottom: 0%;
+        margin-left: 5%;
+    }
+
+    .CarreBold5 {
+        font-size: 3vw;
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .CarreBold1 {
+        margin-left: 4%;
+        font-size: 3vw;
+        font-weight: bold;
+        width: 280px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 0%;
+    }
+
+
+    .CarreText1 {
+        margin-left: 4%;
+        font-size: 2.7vw;
+        margin-bottom: 12vw;
+        width: 130px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -20%;
+    }
+
+    .Canebiere {
+        background-color: white;
+        background-image: url(/img/hebergements/canebiere.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100%;
+        border-radius: 22px 22px 0% 0%;
+        width: 46vw;
+        height: 21.5vw;
+        margin-bottom: 4%;
+    }
+
+    .Canebiere0 {
+        background-color: white;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        padding: 2% 2.1% 2% 2.1%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .hebergementhref {
+        text-decoration: none;
+        color: black;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        gap: 10%;
+    }
+
+    .HotelPort {
+        background-color: white;
+        background-image: url(/img/hebergements/port.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 110%;
+        object-fit: cover;
+        border-radius: 22px 22px 0% 0%;
+        width: 46vw;
+        height: 21.5vw;
+        margin-bottom: 4%;
+    }
+
+    .HotelPort0 {
+        padding: 2% 2.1% 2% 2.1%;
+        background-color: white;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Mouettes {
+        background-color: white;
+        background-image: url(/img/hebergements/mouettes.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 22px 22px 0% 0%;
+        width: 46vw;
+        height: 21.5vw;
+    }
+
+    .Mouettes0 {
+        background-color: white;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        padding: 2% 2.1% 2% 2.1%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Mer {
+        background-color: white;
+        background-image: url(/img/hebergements/mer.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 22px 22px 0% 0%;
+        width: 46vw;
+        height: 21.5vw;
+    }
+
+    .Mer0 {
+        background-color: white;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        padding: 2% 2.1% 2% 2.1%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Panier {
+        background-color: white;
+        background-image: url(/img/hebergements/panier.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 22px 22px 0% 0%;
+        width: 46vw;
+        height: 21.5vw;
+    }
+
+    .Panier0 {
+        background-color: white;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        padding: 2% 2.1% 2% 2.1%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .Amina {
+        background-color: white;
+        background-image: url(/img/hebergements/amina.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100%;
+        object-fit: cover;
+        border-radius: 22px 22px 0% 0%;
+        width: 46vw;
+        height: 21.5vw;
+    }
+
+    .Amina0 {
+        background-color: white;
+        width: 46vw;
+        height: 36vw;
+        border-radius: 28px;
+        padding: 2% 2.1% 2% 2.1%;
+        box-shadow: 0px 0px 7px 3px #F2F2F2;
+    }
+
+    .CarreBold3 {
+        font-size: 19px;
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .CarreBold2 {
+        font-size: 2.7vw;
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .CarreBold7 {
+        font-size: 2.7vw;
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .Bold1 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        width: 300px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+
+    .Bold0 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        width: 200px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+
+    .rechercherBarre {
+        background-color: white;
+        width: 4%;
+        height: 13vw;
+        margin-left: -5.2%;
+        z-index: 1;
+    }
+
+
+
+    .CarreBold1 {
+        margin-left: 4%;
+        font-size: 3vw;
+        font-weight: bold;
+        width: 280px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 3%;
+    }
+
+
+
+    .CarreText1 {
+        margin-left: 4%;
+        font-size: 2.7vw;
+        margin-bottom: 12vw;
+        width: 130px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -30%;
+    }
+
+    .CarreBold01 {
+        font-weight: bold;
+        font-size: 3.5vw;
+        width: 260px;
+        height: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    .CarreText3 {
+        font-size: 3vw;
+        margin-top: -8%;
+        width: 220px;
+        height: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+    .starFlex1 {
+        font-size: 2.5vw;
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        gap: 6%;
+    }
+}
+
+
+@media only screen and (min-width: 548px) and (max-width: 548px) {
+
+    .rechercherBarre {
+        background-color: white;
+        width: 4%;
+        height: 13.2vw;
+        margin-left: -5.2%;
+        z-index: 1;
+    }
+}
